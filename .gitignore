@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.idea/
+
+# Licensed/private inputs and every artifact derived from them.
+data/private/
+outputs/private/
+cache/private/
+**/private/**
+
+# Public downloads are reproducible and should not be committed by default.
+data/cache/
+outputs/public/
